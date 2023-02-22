@@ -17,17 +17,17 @@ return(
     <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
       <ul className="flex flex-col lg:flex-row list-none ml-auto">
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#About">
+            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#about">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="./components/Projects">
+            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#Contact">
+            <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#contact">
               Contact
             </a>
           </li>
