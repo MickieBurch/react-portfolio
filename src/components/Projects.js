@@ -13,17 +13,12 @@ function Projects() {
           ></div>
 
       {/*This div is what holds the actual projects and the apps ive built section */}
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+      <div className="container px-2 py-5 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-10">
          
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
-            Apps I've Built
+          <h1 className="sm:text-4xl text-3xl font-bold title-font  text-black">
+            See my past work and history! 
           </h1>
-          <p className="lg mx-auto leading-relaxed text-base ">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
-          </p>
         </div>
         </div>
 
@@ -41,7 +36,7 @@ function Projects() {
           iconBackgroundClassName="bg-lime-500 ring-lime-400 ring-2 ring-opacity-75"
           date={new Date(2020, 7, 28)}
           rightSideContentClassName="hover:text-white-500"
-          cardClassName="border-4 border-lime-500 bg-white-100 hover:bg-lime-500"
+          cardClassName="border-4 border-lime-500 bg-white-100 hover:bg-pink-500"
           />
 
           <EventTimeline
@@ -52,7 +47,7 @@ function Projects() {
           iconBackgroundClassName="bg-lime-500 ring-lime-400 ring-2 ring-opacity-75"
           date={new Date(2020, 7, 28)}
           rightSideContentClassName="hover:text-white-500"
-          cardClassName="border-4 border-lime-500 bg-white-100 hover:bg-lime-500"
+          cardClassName="border-4 border-lime-500 bg-white-100 hover:bg-pink-500"
           />
 
            </Timeline>
